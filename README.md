@@ -84,64 +84,11 @@ User Fare Prediction Interface
 
 ## Architecture Diagram
 
-                    ┌─────────────────────┐
-                    │   Uber Dataset      │
-                    │ Historical Rides    │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Data Preprocessing  │
-                    │ Cleaning & Handling │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Feature Engineering │
-                    │ Distance, Time      │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Exploratory Data    │
-                    │ Analysis (EDA)      │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Model Training      │
-                    │ RF, XGBoost, DT     │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Hyperparameter      │
-                    │ Tuning              │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Best Model Selected │
-                    │ Random Forest       │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Model Serialization │
-                    │ joblib (.pkl files)│
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Streamlit App       │
-                    │ Prediction UI       │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Fare Prediction     │
-                    │ User Interface      │
-                    └─────────────────────┘
+![FareSense AI Architecture](images/architecture.png)
+
+*Figure: End-to-end machine learning architecture of FareSense AI*
+
+---
 
 ## Models Implemented
 
