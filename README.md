@@ -270,10 +270,7 @@ The project covers the complete machine learning lifecycle from data preprocessi
 
 ## Author
 
-**Shashank G**
-
-Machine Learning Enthusiast  
-Software Engineering Aspirant  
+**Shashank G** 
 
 GitHub: https://github.com/shashank-g2100
 
